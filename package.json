@@ -1,6 +1,6 @@
 {
   "name": "cloud-sla",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A collection of cloud providers' SLA values in JSON format for all of their SLA-bearing services",
   "homepage": "https://github.com/mikaelvesavuori/cloud-sla",
   "repository": {
