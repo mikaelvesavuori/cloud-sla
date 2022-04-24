@@ -1,0 +1,23 @@
+{
+  "name": "cloud-sla",
+  "version": "1.0.0",
+  "description": "A collection of cloud providers' SLA values in JSON format for all of their SLA-bearing services",
+  "homepage": "https://github.com/mikaelvesavuori/cloud-sla",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikaelvesavuori/cloud-sla.git"
+  },
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "scripts": {
+    "lint": "npx eslint './data/*.json' --quiet --fix",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "8",
+    "eslint-config-prettier": "8",
+    "eslint-plugin-prettier": "4",
+    "husky": "7",
+    "prettier": "2"
+  }
+}
